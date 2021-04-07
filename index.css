@@ -50,6 +50,7 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     font-family: 'Roboto Mono', monospace;
+  
 }
 
 h1 {
@@ -119,4 +120,15 @@ nav a {
 .right p {
     width: 50%;
     margin: 3% auto;
+}
+
+/* main text styles */
+
+section.mainText div p {
+    color: white;
+    background-color: #DDB9A3;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1% 2%;
 }
