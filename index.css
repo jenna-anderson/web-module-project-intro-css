@@ -59,7 +59,7 @@ h1 {
 }
 
 section {
-    padding: 4% 0;
+    padding: 2% 0;
 }
 
 
@@ -70,25 +70,26 @@ nav {
 nav a {
     display: inline-block;
     padding: 1% 0;
-    border-radius: 10px;
-    width: 14%;
+    border-radius: 20px;
+    width: 18%;
     text-align: center;
     color: white;
     text-decoration: none;
     border: none;
+    font-size: 2.5rem;
 }
 
 .orange {
     background-color: #FF764E;
-    margin-left: 10%;
+    margin-left: 8%;
 }
 .blue {
     background-color: #5ED3EB;
-    margin: 0 18%;
+    margin: 0 14%;
 }
 .yellow {
     background-color: #FFCD69;
-    margin-right: 10%;
+    margin-right: 8%;
 }
 
 /* Top Section styles */
@@ -131,4 +132,31 @@ section.mainText div p {
     margin: 0 auto;
     text-align: center;
     padding: 1% 2%;
+}
+
+/* Third section styles */
+
+.thirdSection {
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.thirdSection span {
+    font-weight: bold;
+}
+
+.thirdSection p {
+    margin: 0 0 20% 0;
+
+}
+
+.halfDome {
+    background-image: url('assets/footer_img.jpg');
+    height: 50vh;
+   
+}
+
+footer {
+    background-color: #F9E7DC;
 }
