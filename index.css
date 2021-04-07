@@ -49,8 +49,7 @@ html{
 body {
     font-size: 1.6rem;
     line-height: 1.5;
-    font-family: 'Roboto Mono', monospace;
-  
+    font-family: 'Roboto Mono', monospace; 
 }
 
 h1 {
@@ -77,6 +76,7 @@ nav a {
     text-decoration: none;
     border: none;
     font-size: 2.5rem;
+    transition: .5s;
 }
 
 .orange {
@@ -109,14 +109,13 @@ nav a {
     border: 1px solid #FFCD69;
 }
 
-/* Top Section styles */
 
+/* Top Section styles */
 
 .top div{
     display: inline-block;
     margin: 0 2%;
     text-align: center;
-    
 }
 
 .left {
@@ -126,7 +125,6 @@ nav a {
 .left img {
     border-radius: 50%;
     width: 60%;
-    
 }
 
 .right {
@@ -162,7 +160,7 @@ section.mainText div p {
     font-size: 2rem;
 }
 
-/* Third section styles */
+/* third section styles */
 
 .thirdSection {
     width: 25%;
@@ -176,17 +174,14 @@ section.mainText div p {
 
 .thirdSection p {
     margin: 0 0 20% 0;
-
 }
 
 .halfDome {
     background-image: url('assets/footer_img.jpg');
-    height: 50vh;
-   
+    height: 50vh;  
 }
 
 /* footer styles */
-
 footer {
     background-color: #F9E7DC;
 }
