@@ -38,7 +38,7 @@ blockquote, q {
 * {
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 /* General Styles */
@@ -118,9 +118,19 @@ nav a {
     width: 54%;
 }
 
+.right:last-child {
+    padding-bottom: 0;
+}
+
+.right h2 {
+    font-size: 2rem;
+}
+
 .right p {
-    width: 50%;
+    width: 65%;
     margin: 3% auto;
+    font-size: 2rem;
+    line-height: 2rem;
 }
 
 /* main text styles */
@@ -132,6 +142,7 @@ section.mainText div p {
     margin: 0 auto;
     text-align: center;
     padding: 1% 2%;
+    font-size: 2rem;
 }
 
 /* Third section styles */
