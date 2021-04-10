@@ -34,163 +34,126 @@ blockquote:before, blockquote:after, q:before, q:after {
 blockquote, q {
 	quotes: "" "";
 	}
-
-* {
-    box-sizing: border-box;
-    max-width: 100%;
-    /* border: 1px solid grey; */
-}
-
-/* General Styles */
+*{
+    box-sizing:border-box;
+    max-width:100%;
+    /* border:1px solid grey; */
+}    
+/*General Styles*/
 html{
-    font-size: 62.5%;
+    font-size:62.5%;
 }
-
-body {
-    font-size: 1.6rem;
-    line-height: 1.5;
-    font-family: 'Roboto Mono', monospace; 
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    font-family: 'Roboto Mono', monospace;
 }
-
-h1 {
+h1{
     font-family: 'Chelsea Market', cursive;
-    font-size: 6rem;
+    font-size:5.5rem;
 }
-
-section {
-    padding: 2% 0;
-}
-
-
-/* header section styles */
-nav {
-    padding: 2% 0;
-}
-nav a {
-    display: inline-block;
-    padding: 1% 0;
-    border-radius: 20px;
-    width: 18%;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    border: none;
-    font-size: 2.5rem;
-    transition: .5s;
-}
-
-.orange {
-    background-color: #FF764E;
-    margin-left: 8%;
-}
-.orange:hover {
-    color: #FF764E;
-    background-color: white;
-    border: 1px solid #FF764E;
-}
-
-.blue {
-    background-color: #5ED3EB;
-    margin: 0 14%;
-}
-.blue:hover {
-    color: #5ED3EB;
-    background-color: white;
-    border: 1px solid #5ED3EB;
-}
-
-.yellow {
-    background-color: #FFCD69;
-    margin-right: 8%;
-}
-.yellow:hover {
-    color: #FFCD69;
-    background-color: white;
-    border: 1px solid #FFCD69;
+section{
+    padding:4% 0;
 }
 
 
-/* Top Section styles */
-
+/*header section styles*/
+nav{
+    padding:2% 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    display:inline-block;
+    padding:1% 0;
+    border-radius:10px;
+    width:10%;
+    text-align:center;
+    color:#fff;
+    text-decoration:none;
+}
+.orange{
+    background-color:#FF764E;
+}
+.blue{
+    background-color:#5ED3EB;
+}
+.yellow{
+    background-color:#FFCD69;
+}
+/*Top Section styles*/
+.top{
+    display: flex;
+    
+}
 .top div{
-    display: inline-block;
-    margin: 0 2%;
-    text-align: center;
+    width:45%;
+    text-align:center;
+}
+.left img{
+    border-radius:50%;
+    width:60%;
+}
+.right{
+    padding:4%;
+    line-height:2;
+    bottom:20%;
+    display: flex;
+    flex-direction: column;
+}
+.top h2 {
+    order: -1;
 }
 
-.left {
-    width: 34%;
+/* general info section */
+.generalInfo{
+    display: flex;
+    justify-content: center;
 }
 
-.left img {
-    border-radius: 50%;
-    width: 60%;
-}
-
-.right {
-    padding: 4%;
-    line-height: 2;
-    width: 54%;
-}
-
-.right:last-child {
-    padding-bottom: 0;
-}
-
-.right h2 {
-    font-size: 2rem;
-}
-
-.right p {
-    width: 65%;
-    margin: 3% auto;
-    font-size: 2rem;
-    line-height: 2rem;
-}
-
-/* main text styles */
-
-section.mainText div p {
-    color: white;
-    background-color: #DDB9A3;
+.generalInfo div {
     width: 90%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 1% 2%;
-    font-size: 2rem;
+    background-color: #DDB9A3;
+    color: white;
+    padding: 2%;
 }
 
-/* third section styles */
+.generalInfo div p {
+    margin-bottom: 2%;
+}
 
-.thirdSection {
+/* camp info section */
+.camp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.camp div {
     width: 25%;
-    text-align: center;
-    margin: 0 auto;
+    margin: 4% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-.thirdSection span {
+.camp div img {
+    width: 80%;
+}
+span {
     font-weight: bold;
 }
 
-.thirdSection p {
-    margin: 0 0 20% 0;
-}
-
-.halfDome {
+/* empty section */
+.bg-img {
     background-image: url('assets/footer_img.jpg');
-    height: 50vh;  
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
 }
 
-/* footer styles */
+/* footer */
 footer {
-    background-color: #F9E7DC;
-}
-footer nav a.orange:hover {
-    background-color: #F9E7DC;
-}
-footer nav a.blue:hover {
-    background-color: #F9E7DC;
-}
-footer nav a.yellow:hover {
     background-color: #F9E7DC;
 }
